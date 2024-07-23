@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8e8d1c1b95.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- ------------------ navbar -------------------- -->
+    <div class="navbar">
+        <a href="#header" class="logo">AG</a>
+        <nav id="headerNav" >
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li> 
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>  
+        
+        
+        <button onclick="openSideBar()"  id="menuBtn" ><img src="./images/menu.png" alt="" width="30px"></button>
+        
+        
+        <div class="sideBar" id="sideBar" >
+            
+            <button href="" onclick="closeSideBar()"  id="crossBtn" ><img src="./images/cross.png" alt="" width="30px"></button>
+
+ 
+                <ul id="sideBarNav">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li> 
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+
+
+      
+
+        </div>
+
+    </div>
+    
+    <!-- ---------------------------- Intro ------------------------------ -->
+    <div id="intro">  
+    
+        <div class="header-text">
+            <p>Web Developer</p>
+             <h3>Hi,I'm <span>Akanksha</span><br>Gahane from India</h3>
+         </div>   
+
+         <img src="./images/croped_test.png" alt="" id="intro_img" width="600px" >
+    </div>
+<!-----------------about------------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1" >
+             <img src="images/about.jpg">
+        </div>
+        <div class="about-col-2">
+            <h1>About Me</h1>
+         <P> I am committed to delivering high-quality work and contributing positively to team success. 
+         With a proactive approach to challenges and a continuous learning mindset,
+              <br>I strive to make impactful contributions in a dynamic work environment .
+ I am a dedicate professional with a passion and a track record of delivering results before deadline.</P>
+    <div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+    <p class="tab-links " onclick="opentab('experience')">Experience</p>
+    <p class="tab-links" onclick="opentab('education')">Education</p>
+ </div>
+ <div class="tab-contents active-tab" id="skills">
+    <ul>
+        <li><span>Web Developer</span><br>Creating And Designing Website</li>
+        <li><span>Marketing</span><br>Promoting the company</li>
+        <li><span>Data Analysis</span><br>Analysis the data</li>
+    </ul>
+ </div>
+ <div class="tab-contents" id="experience">
+    <ul>
+        <li><span> 2024-current</span><br>Intership at CODETECH private limited</li>
+        <li><span>2023</span><br>Part-Time intership at book printing company for Data Entry</li>
+    
+    </ul>
+</div>
+<div class="tab-contents" id="education">
+    <ul>
+        <li><span>2025-Current</span><br>BCA from MIT Pune</li>
+        <li><span>2022-Junior College</span><br>Saraswati Junior College</li>
+        <li><span>2020-High School</span><br> Siddhivinayaka Public School </li>
+
+    </ul>
+</div>
+ </div>   
+</div>
+</div>
+</div>
+<!-------------------services------------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1> 
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Designing</h2>
+                <p>Web Designing involves creating the visual layout and aesthetics of a website, 
+                    focusing on user experience, graphics, and overall look. </p>
+                  <a href="#">Learn more</a>  
+            </div>
+                <div>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h2>Marketing</h2>
+                    <p>set of institutions, and processes for creating, communicating, delivering, and
+                         exchanging offerings that have value for customers, clients, partners, 
+                         and society at large. </p>
+                      <a href="#">Learn more</a>  
+                </div>  
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Data Analysis</h2>
+                    <p>Data analysis is the process of cleaning, 
+                        analyzing, interpreting, and visualizing data
+                         using various techniques and business intelligence tools </p>
+                      <a href="#">Learn more</a>  
+                </div>      
+                
+        </div>
+
+        </div>
+    </div>
+ </div>
+    <!--------------------------portfolio---------------------------->
+    <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title">My work</h1>
+          <div class="work-list">
+            <div class="work">
+                <img src="images/work-4.png">
+                <div class="layer">
+                    <h3>Portfolio Website</h3>
+                    <p> It's one of the most practical and memorable ways to share your work with 
+                         potential collaborators or employers</p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-4.png">
+                <div class="layer">
+                    <h3>To Do List Website</h3>
+                    <p> It's one of the most practical and memorable ways to share your work with 
+                         potential collaborators or employers</p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-4.png">
+                <div class="layer">
+                    <h3>Quiz Game Website</h3>
+                    <p> It's one of the most practical and memorable ways to share your work with 
+                         potential collaborators or employers</p>
+                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+          </div>
+          <a href="#" class="btn">See more</a>
+          </div>
+          </div>
+          <!------------------------contact------------------------>
+          <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i>akankshagahane18@gmail.com</p>
+                        <p><i class="fas fa-phone-square-alt"></i>9011515869</p>
+                         <div class="social-icons">
+                            <a href="https://facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                         </div>  
+                         <a href="Resumee.pdf"  download class="btn btn2">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet" >
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+                
+            </div>
+             <div class="copyright">
+        <p>Copyright © Akanksha</p>
+             </div>
+          </div>
+
+
+ <script>
+        
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+
+</script>
+
+
+<script>
+
+    const sidebar = document.getElementById("sideBar")
+    
+
+    function openSideBar(){
+    sidebar.style.display = "block";
+    console.log("open")
+}
+
+function closeSideBar(){
+    sidebar.style.display = "none";
+    console.log("close")
+}
+
+
+ </script>
+
+<!--  ----------------------- Google sheet -------------------------- -->
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyuVtjHygNQnf7JBie34x-PvjNbFk4T4VurCkGZOYr91BRAL3-zn-f-7JRRzKIXj5ocrA/exec'
+    const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {  msg.innerHTML = "Message sent successfully"
+            setTimeout(function() { msg.innerHTML = "" }, 5000 )
+            form.reset()
+         } )
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+
+    </body>
+    </html>
+    
+      
