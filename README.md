@@ -1,1 +1,5 @@
-# CODTECH-Task2
+**Name:** Akanksha Gahane
+
+**Company:** CODTECH IT SOLUTIONS
+
+**
