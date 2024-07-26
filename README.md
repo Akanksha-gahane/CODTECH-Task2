@@ -31,8 +31,11 @@
 
 ### Objective of Personal Portfolio Website
 -> Showcase Your Work
+
 -> Highlight Your Skills
+
 -> Provide Contact Information
+
 -> Practice and Improve Your Skills
 
 ### Key Activities
